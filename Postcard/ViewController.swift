@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        // What should happen when button is pressed?
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text + " " + enterNameTextField.text
         messageLabel.textColor = UIColor.redColor()
